@@ -86,6 +86,13 @@ if __name__ == "__main__":
         elif "open google" in query:
             webbrowser.open("google.com")
 
+        elif "open instagram" in query:
+            webbrowser.open("instagram.com")
+
+        elif "book an appointment" in query:
+            webbrowser.open("ors.gov.in")
+
+
         elif "open stackoverflow" in query:
             webbrowser.open("stackoverflow.com")
 
