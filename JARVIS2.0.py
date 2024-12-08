@@ -24,13 +24,13 @@ def speak(audio):
 def wishMe():
     hour = int(datetime.datetime.now().hour)
     if hour >= 0 and hour < 12:
-        speak("Good Morning!")
+        speak("Good Morning Manisha !")
 
     elif hour >= 12 and hour < 18:
-        speak("Good Afternoon!")
+        speak("Good Afternoon Manisha !")
 
     else:
-        speak("Good Evening!")
+        speak("Good Evening Manisha!")
 
     speak("jarvis here at your service sir.How may I help you")
 
